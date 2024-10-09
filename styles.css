@@ -521,20 +521,15 @@
   }
   
   .services__card:nth-child(2) {
-    background: #1fa2ff; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #b80c84 0%, #ffffff 50%, #2ebdff 100%); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #9396ff 0%, #bcbfff 99%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #0082c8;
   }
   
   .services__card:nth-child(3) {
-    background-image: linear-gradient(
-      to right, #bcbfff 0%, #f6f6ff 99%);
+    background-color: #0082c8;
   }
   
   .services__card:nth-child(4) {
-    background-image: linear-gradient(
-      to right, #f6f6ff 0%, #ffff 99%
-    );
+    background-color: #0082c8;
   }
 
 

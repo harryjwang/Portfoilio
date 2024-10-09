@@ -516,8 +516,7 @@
     flex-direction: column;
     justify-content: center;
     color: #000000;
-    background-image: linear-gradient(
-    to right, #444aff 0%, #9396ff 99%);
+    background-color: #0082c8;
     transition: 0.3s ease-in;
   }
   
@@ -543,6 +542,10 @@
     text-align: center;
   }
   
+  .services_card h3 {
+    text-align: center;
+  }
+
   .services__card p {
     text-align: center;
     margin-top: 24px;

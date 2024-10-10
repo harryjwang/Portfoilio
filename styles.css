@@ -30,8 +30,7 @@
   }
   
   #navbar__logo {
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-color: #0082c8;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -84,7 +83,7 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #0d00ff;
+    background: #0082c8;
     background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
     background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
     color: #fff;
@@ -92,7 +91,7 @@
   }
   
   .navbar__links:hover {
-    color: #0d00ff;
+    color: #0082c8;
     transition: all 0.3s ease;
   }
   
@@ -193,7 +192,7 @@
   /* Hero Section */
   .hero {
     background: #0d00ff;
-    background: linear-gradient(to right, #0d00ff, #0d00ff);
+    background: linear-gradient(to right, #ff0000, #0d00ff);
     padding: 200px 0;
   }
   
@@ -236,17 +235,8 @@
   
   .hero__description {
     font-size: 60px;
-    background: #da22ff; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #9114ff,
-      #da22ff
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to right,
-      #8f0eff,
-      #da22ff
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #0082c8; /* fallback for old browsers */
+    background-image: linear-gradient(to right, #0082c8 0%, #ffffff99 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -277,7 +267,7 @@
 
 
   .main {
-    background-color: #131313;
+    background-color: #ffffff;
     padding: 10rem 0;
   }
   
@@ -300,9 +290,8 @@
   }
   
   .main__content h1 {
-    font-size: 2rem;
-    background-color: #fe3b6f;
-    background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
+    font-size: 4rem;
+    background-color:#ffffff;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -313,18 +302,8 @@
   }
   
   .main__content h2 {
-    font-size: 4rem;
-    background: #ff8177; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #ffffff,
-      #000000
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to right,
-      #ffffff,
-      #000000
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 2rem;
+    background:#0082c8; /* fallback for old browsers */
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -340,9 +319,7 @@
   
   .main__btn {
     font-size: 1.8rem;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: #0082c8;
     padding: 20px 60px;
     border: none;
     border-radius: 4px;
@@ -367,7 +344,7 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: #ff1ead;
+    background: #0082c8;
     transition: all 0.35s;
     border-radius: 4px;
   }
@@ -490,8 +467,7 @@
   }
   
   .services h1 {
-    background-color: #ff8177;
-    background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+    background-color: #ffffff;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -508,28 +484,29 @@
   }
   
   .services__card {
-    margin: 10px;
+    margin: 15px;
     height: 425px;
     width: 300px;
-    border-radius: 4px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: #000000;
-    background-color: #0082c8;
+    background-color: #cbebff;
     transition: 0.3s ease-in;
+    padding: 5px;
   }
   
   .services__card:nth-child(2) {
-    background-color: #0082c8;
+    background-color: #cbebff;
   }
   
   .services__card:nth-child(3) {
-    background-color: #0082c8;
+    background-color: #cbebff;
   }
   
   .services__card:nth-child(4) {
-    background-color: #0082c8;
+    background-color: #cbebff;
   }
 
 
@@ -587,8 +564,8 @@
   
   /* Footer CSS */
   .footer__container {
-    background-color: #131313;
-    padding: 5rem 0;
+    background-color: #000000db;
+    padding: 30px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -620,7 +597,7 @@
     flex-direction: column;
     align-items: flex-start;
     margin: 16px;
-    text-align: left;
+    text-align: center;
     width: 160px;
     box-sizing: border-box;
   }
@@ -734,8 +711,7 @@
   }
   
   #navbar__logo {
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #71deff 40%, #2f00ff 100%);
+    background-color: #0082c8;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -788,7 +764,7 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #833ab4;
+    background: #0082c8;
     background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
     background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
     color: #fff;
@@ -796,7 +772,7 @@
   }
   
   .navbar__links:hover {
-    color: #0026ff;
+    color: #0082c8;
     transition: all 0.3s ease;
   }
   
@@ -824,7 +800,7 @@
     }
   
     .navbar__menu.active {
-      background: #131313;
+      background: #000000;
       top: 100%;
       opacity: 1;
       transition: all 0.5s ease;
@@ -897,7 +873,6 @@
   /* Hero Section */
   .hero {
     background: #000000;
-    background: linear-gradient(to right, #161616, #000000);
     padding: 200px 0;
   }
   
@@ -921,16 +896,7 @@
   
   .hero__heading span {
     background: #ffffff; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #0004ff,
-      #ffffff
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-        to right,
-        #0004ff,
-        #ffffff
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #0082c8;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -940,17 +906,8 @@
   
   .hero__description {
     font-size: 60px;
-    background: #da22ff; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #14ffff,
-      #da22ff
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-        to left,
-        #14ffff,
-        #da22ff
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #0082c8; /* fallback for old browsers */
+    background-image: linear-gradient(to right, #0082c8 0%, #ffffff99 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -998,11 +955,7 @@
   
   .main__content h1 {
     font-size: 4rem;
-    background-color: #c73bfe;
-    background-image: linear-gradient(to left, 
-    #0004ff,
-    #ffffff
-    );
+    background-color:#ffffff;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -1014,14 +967,7 @@
   
   .main__content h2 {
     font-size: 2rem;
-    background: #ff8177; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-        to left,
-        #1294ff 0%, #aa008e 100%
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to left, #1294ff 0%, #aa008e 100%
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background:#0082c8; /* fallback for old browsers */
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -1035,11 +981,9 @@
     font-weight: 700;
   }
   
-    .main__btn {
+  .main__btn {
     font-size: 1.8rem;
-    background: #ffffff;
-    background: -webkit-linear-gradient(to right, #9CECFB, #65C7F7, #0052D4);
-    background: linear-gradient(to right, #9CECFB, #65C7F7, #0052D4);
+    background-color: #0082c8;
     padding: 20px 60px;
     border: none;
     border-radius: 4px;

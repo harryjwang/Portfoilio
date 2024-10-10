@@ -549,6 +549,10 @@
     border-radius: 4px;
     background: #131313;
     font-size: 1rem;
+    align-items: center;
+    width: 301px;
+    position: relative;
+    left: -5px;
   }
   
   .services__card button:hover {

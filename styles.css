@@ -997,3 +997,31 @@
     margin-top: 2rem;
     cursor: pointer;
     }
+
+    
+    .contact-info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      width: 100%;
+    }
+    
+    .email {
+      position: relative;
+      left: -250px; /* Aligns email to the left */
+    }
+    
+    .phone {
+      position: realtive;
+      left: 100px; /* Ensures there is enough gap between email and LinkedIn */
+    }
+    
+    .linkedin {
+      position: relative;
+      right: -250px; /* Aligns LinkedIn to the right */
+    }
+    
+    .contact-info a {
+      text-decoration: none;
+    }

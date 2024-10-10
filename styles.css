@@ -495,6 +495,7 @@
     background-color: #cbebff;
     transition: 0.3s ease-in;
     padding: 5px;
+    padding-bottom: 15px;
   }
   
   .services__card:nth-child(2) {
@@ -509,6 +510,12 @@
     background-color: #cbebff;
   }
 
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
   .services__card h2 {
     text-align: center;
